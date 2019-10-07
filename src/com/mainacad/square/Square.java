@@ -5,6 +5,7 @@ public class Square {
 
     public double getSide() {
         return side;
+
     }
 
     public void setSide(double side) {
