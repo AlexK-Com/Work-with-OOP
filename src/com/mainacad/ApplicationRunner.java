@@ -7,6 +7,7 @@ import com.mainacad.triangle.triangle;
 public class ApplicationRunner {
     public static void main(String[] args) {
         Square square = new Square();
+        square.setName(Square);
         square.setSide(10.0);
 
         circle circle = new circle();

@@ -1,6 +1,8 @@
 package com.mainacad.circle;
 
-public class circle {
+import com.mainacad.abs.AbstractShape;
+
+public class circle extends AbstractShape {
     private double radius;
 
     public double getRadius() {
