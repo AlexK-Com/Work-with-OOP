@@ -1,6 +1,7 @@
 package com.mainacad.triangle;
 
 import com.mainacad.abs.AbstractShape;
+import com.mainacad.abs.Shape;
 
 public class triangle extends AbstractShape {
         private double side1;
@@ -31,7 +32,7 @@ public class triangle extends AbstractShape {
     public void setSide3(double side3) {
         this.side3 = side3;
     }
-
+    @Override
     public double getArea(){
         PoluPerimetr = (side1+side2+side3)/2;
         return Math.sqrt(PoluPerimetr*(PoluPerimetr-side1)*(PoluPerimetr-side2)*(PoluPerimetr-side3));

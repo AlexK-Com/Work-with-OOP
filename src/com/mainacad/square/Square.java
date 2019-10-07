@@ -14,12 +14,10 @@ public class Square extends AbstractShape {
         this.side = side;
     }
 
+    @Override
     public double getArea(){
         return side*side;
     }
-
-
-
 
 
 }
